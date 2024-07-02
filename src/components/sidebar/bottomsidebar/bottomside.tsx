@@ -1,9 +1,5 @@
 function BottomSidebar() {
-    return ( 
-        <div>
-            
-        </div>
-     );
+  return <div className="">sdafasdf</div>;
 }
 
 export default BottomSidebar;

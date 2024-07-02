@@ -3,12 +3,12 @@ import { IoSearchOutline } from "react-icons/io5";
 import Buttons from "./buttons";
 
 function TopSidebar() {
-    return ( 
-        <div className="p-5">
-            <Buttons icons={<MdHomeFilled />} text={'Início'}/>
-            <Buttons icons={<IoSearchOutline />} text={'Buscar'}/>
-        </div>
-     );
+  return (
+    <div className="h-1/4 w-full rounded-lg bg-zinc-900 p-6">
+      <Buttons icons={<MdHomeFilled size={"30"} />} text={"Início"} />
+      <Buttons icons={<IoSearchOutline size={"30"} />} text={"Buscar"} />
+    </div>
+  );
 }
 
 export default TopSidebar;
