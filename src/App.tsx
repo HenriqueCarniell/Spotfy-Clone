@@ -3,7 +3,7 @@ import MainSidebar from "./components/sidebar/mainsidebar";
 function App() {
   return (
     <div className="App">
-      <div className="p-2">
+      <div className="">
         <MainSidebar />
       </div>
     </div>
